@@ -22,6 +22,7 @@
 		B426378626EA338F00B5DFB5 /* ToDoList+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B426378426EA338F00B5DFB5 /* ToDoList+CoreDataClass.swift */; };
 		B426378726EA338F00B5DFB5 /* ToDoList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B426378526EA338F00B5DFB5 /* ToDoList+CoreDataProperties.swift */; };
 		B46D2BD626F200FD0092CCBC /* TodoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46D2BD526F200FD0092CCBC /* TodoListViewModel.swift */; };
+		B4BBB2C726F3035E00D14586 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BBB2C626F3035E00D14586 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		B426378426EA338F00B5DFB5 /* ToDoList+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoList+CoreDataClass.swift"; sourceTree = "<group>"; };
 		B426378526EA338F00B5DFB5 /* ToDoList+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ToDoList+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		B46D2BD526F200FD0092CCBC /* TodoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListViewModel.swift; sourceTree = "<group>"; };
+		B4BBB2C626F3035E00D14586 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 		B4BBB2C126F2262700D14586 /* AddTodoScene */ = {
 			isa = PBXGroup;
 			children = (
+				B4BBB2C526F3022F00D14586 /* ViewModel */,
 				B4BBB2C326F2264F00D14586 /* Extensions */,
 				B4BBB2C226F2263400D14586 /* Controllers */,
 			);
@@ -188,6 +191,14 @@
 				B426377E26E9584700B5DFB5 /* UIView+Extension2.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B4BBB2C526F3022F00D14586 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4BBB2C626F3035E00D14586 /* ViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 				B426377D26E939D000B5DFB5 /* AddTodo+Extension.swift in Sources */,
 				B426377726E91D3F00B5DFB5 /* ToDoListViewController.swift in Sources */,
 				B426376026E91AEF00B5DFB5 /* AppDelegate.swift in Sources */,
+				B4BBB2C726F3035E00D14586 /* ViewModel.swift in Sources */,
 				B426376226E91AEF00B5DFB5 /* SceneDelegate.swift in Sources */,
 				B426377926E91F2500B5DFB5 /* UIView+Extension.swift in Sources */,
 				B426377F26E9584700B5DFB5 /* UIView+Extension2.swift in Sources */,

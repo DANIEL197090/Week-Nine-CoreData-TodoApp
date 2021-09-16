@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     guard let windowScene = (scene as? UIWindowScene) else { return }
     let rootViewCOntroller = ToDoListViewController()
     let navigationController = UINavigationController(rootViewController: rootViewCOntroller)
-    navigationController.navigationBar.tintColor = .lightGray
+    navigationController.navigationBar.tintColor = .black
     navigationController.navigationBar.prefersLargeTitles = true
     window = UIWindow(frame: windowScene.coordinateSpace.bounds)
     window?.windowScene = windowScene

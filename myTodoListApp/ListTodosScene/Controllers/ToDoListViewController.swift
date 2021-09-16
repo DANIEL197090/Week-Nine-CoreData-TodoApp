@@ -19,8 +19,7 @@ class ToDoListViewController: UIViewController {
     configureTableView()
     setTableViewDelegate()
     self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Add", style: .plain, target: self, action: #selector(didTapAddButton) )
-    
-//    tableView.frame = view.bounds
+  
     navigationItem.title = "To do List"
     customizeBarButton()
     getAllItems()
